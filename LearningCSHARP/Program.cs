@@ -20,21 +20,36 @@ namespace LearningCSHARP
             //Console.WriteLine("Yet {0} was a happy {1} year old man", nameChoice,ageChoice);
 
             //Learning DataStructures
-            
-            //Plain Text DS
-            string phrase = "Giraffe Academy";
 
-            char grade = 'A';
+            ////Plain Text DS
+            //string phrase = "Giraffe Academy";
 
-            //Numerics DS
-            int age = 24;
+            //char grade = 'A';
 
-            //decimal > double > float acc to precision
-            double gpa = 4.5;
+            ////Numerics DS
+            //int age = 24;
+
+            ////decimal > double > float acc to precision
+            //double gpa = 4.5;
 
             //Boolean DS
 
             //bool isMale = true;
+
+
+            //Working with STRINGS
+
+            //bring a new line \n
+            //Console.WriteLine("Abhin\nJames");
+
+            //print "
+            //Console.WriteLine("Abhin \"James\"");
+
+            //Console.ReadLine();
+
+
+
+
         }
     }
 }
