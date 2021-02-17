@@ -19,8 +19,22 @@ namespace LearningCSHARP
             //Console.WriteLine("But didnt like being {0}",ageChoice);
             //Console.WriteLine("Yet {0} was a happy {1} year old man", nameChoice,ageChoice);
 
+            //Learning DataStructures
+            
+            //Plain Text DS
+            string phrase = "Giraffe Academy";
 
+            char grade = 'A';
 
+            //Numerics DS
+            int age = 24;
+
+            //decimal > double > float acc to precision
+            double gpa = 4.5;
+
+            //Boolean DS
+
+            //bool isMale = true;
         }
     }
 }
