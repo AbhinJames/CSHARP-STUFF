@@ -54,8 +54,21 @@ namespace LearningCSHARP
 
             //Console.WriteLine("Hello " + username);
 
+            //Basic Calculator
 
+            //Console.WriteLine("Enter the first number: ");
 
+            //int numOne = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter the second number: ");
+
+            //int numTwo = Convert.ToInt32(Console.ReadLine());
+
+            //int numSum = numOne + numTwo;
+
+            //Console.WriteLine("The sum of {0} and {1} is {2}", numOne, numTwo, numSum);
+
+             
         }
     }
 }
