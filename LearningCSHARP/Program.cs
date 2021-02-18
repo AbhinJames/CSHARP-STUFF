@@ -101,9 +101,19 @@ namespace LearningCSHARP
             //SayHI("John");
             //SayHI("Josey");
 
+            //Return statement
+
+            //Console.WriteLine(cube(5));
+
 
 
         }
+
+        //static int cube(int num)
+        //{
+        //    int resullt = num * num * num;
+        //    return resullt;
+        //}
 
         //static void SayHI(string name)
         //{
