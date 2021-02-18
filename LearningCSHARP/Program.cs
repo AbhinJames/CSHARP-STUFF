@@ -93,8 +93,24 @@ namespace LearningCSHARP
 
             //string[] friends = new string[5];
 
+            //METHODS
+
+            //Console.WriteLine("Enter your name please: ");
+            //string userName = Console.ReadLine();
+            //SayHI("Abhin");
+            //SayHI("John");
+            //SayHI("Josey");
+
 
 
         }
+
+        //static void SayHI(string name)
+        //{
+            
+
+        //    Console.WriteLine("Hello " + name);
+
+        //}
     }
 }
