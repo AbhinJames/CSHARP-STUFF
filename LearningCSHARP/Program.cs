@@ -85,7 +85,13 @@ namespace LearningCSHARP
             //Console.WriteLine(pluralNoun + " are blue");
             //Console.WriteLine("I love " + celebrity);
 
+            //Arrays
 
+            //int[] luckyNumbers = {5,12,20,15,32 };
+
+            //Console.WriteLine(luckyNumbers[2]);
+
+            //string[] friends = new string[5];
 
 
 
