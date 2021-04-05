@@ -174,7 +174,7 @@
         SGudqG0ZqpFs0v0xutShG6t0g1WNSC/GEwp0hgKdoUBnKNAV4BPA1MwBGJSMkQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bunifuTextBox3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EmpPhoneTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIUAAAAcCAYAAABPs3y3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB+SURBVGhD7dKxDQIwEATB778q221QBnIMeuEAdHTgOWmS
@@ -182,7 +182,7 @@
         EERBEAVBFARREERBEAVBFISfKOaczz64W3dwkjD7XtUbD7y1uwqq7kAAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuTextBox4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EmpAddTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAJcAAAAcCAYAAABs6C1iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACFSURBVHhe7dKxDcMwAANB7T+VrTUyRuDagQA16fXdEbiG
@@ -190,7 +190,7 @@
         MuIiIy4y4iIjLjLiIiMuMuIiIy4y4iLzF9d93991wAmrp52WWbExfjZVsaD2TR8MAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bunifuTextBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EmpNameTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKQAAAAcCAYAAADvLBRZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACJSURBVHhe7dKxDcMwAANB7T+VrTUyRuDagQA1mUBfHIFr
@@ -199,7 +199,7 @@
         rkJggg==
 </value>
   </data>
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="EmpIdTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGgAAAAcCAYAAACNr/p2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB7SURBVGhD7dGxCcBQDMRQ7z+Vv9fIGMF1gsFNNlBAB2qu
