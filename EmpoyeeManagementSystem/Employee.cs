@@ -30,7 +30,7 @@ namespace EmpoyeeManagementSystem
                 try
                 {
                     Con.Open();
-                    string query = "insert into EmployeeTbl values("+EmpIdTb.Text+"','"+EmpNameTb.Text+"','"+EmpAddTb.Text+"','"+EmpPosCb.SelectedItem.ToString()+"','"+EmpDOB.Value.Date+"','"+EmpPhoneTb.Text+"','"+EmpEduCb.SelectedItem.ToString()+"','"+EmpGenCb.SelectedItem.ToString()+"')";
+                    string query = "insert into EmployeeTbl values('"+EmpIdTb.Text+"','"+EmpNameTb.Text+"','"+EmpAddTb.Text+"','"+EmpPosCb.SelectedItem.ToString()+"','"+EmpDOB.Value.Date+"','"+EmpPhoneTb.Text+"','"+EmpEduCb.SelectedItem.ToString()+"','"+EmpGenCb.SelectedItem.ToString()+"')";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Employee Added Succesfully");
@@ -46,6 +46,11 @@ namespace EmpoyeeManagementSystem
         private void EmpEduCb_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
