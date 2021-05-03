@@ -35,6 +35,7 @@ namespace EmpoyeeManagementSystem
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Employee Added Succesfully");
                     Con.Close();
+                    populate();
                 }
                 catch (Exception Ex)
                 {
@@ -51,6 +52,24 @@ namespace EmpoyeeManagementSystem
         private void label11_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void populate()
+        {
+            Con.Open();
+            string query = "select * from EmployeeTbl";
+            SqlDataAdapter sda = new SqlDataAdapter(query, Con);
+            SqlCommandBuilder builder = new SqlCommandBuilder(sda);
+            var ds = new DataSet();
+            sda.Fill(ds);
+            EmpDGV.DataSource = ds.Tables[0];
+            Con.Close();
+            
+        }
+
+        private void Employee_Load(object sender, EventArgs e)
+        {
+            populate();
         }
     }
 }
