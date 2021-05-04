@@ -1,5 +1,5 @@
 ﻿
-namespace EmpoyeeManagementSystem
+namespace EmployeeManagementSystem
 {
     partial class Employee
     {

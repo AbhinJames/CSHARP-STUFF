@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace EmpoyeeManagementSystem
+namespace EmployeeManagementSystem
 {
     public partial class Home : Form
     {
@@ -55,6 +55,13 @@ namespace EmpoyeeManagementSystem
         {
             ViewEmployee ViewEmp = new ViewEmployee();
             ViewEmp.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Salary sal = new Salary();
+            sal.Show();
             this.Hide();
         }
     }

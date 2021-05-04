@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-namespace EmpoyeeManagementSystem
+namespace EmployeeManagementSystem
 {
     public partial class ViewEmployee : Form
     {
@@ -22,7 +22,7 @@ namespace EmpoyeeManagementSystem
         private void FetchEmpData()
         {
             Con.Open();
-            string query = "select * from EmployeeTbl where EmpId='" + EmpIdTb.Text + "';";
+            string query = "select * from EmployeeTbl where EmpId='" + EmpIdTb.Text + "'";
             SqlCommand cmd = new SqlCommand(query, Con);
             cmd.ExecuteNonQuery();
             DataTable dt = new DataTable();
@@ -31,6 +31,22 @@ namespace EmpoyeeManagementSystem
             foreach (DataRow dr in dt.Rows)
             {
                 EmpIdlbl.Text = dr["EmpId"].ToString();
+                EmpNamelbl.Text = dr["EmpName"].ToString();
+                EmpAddlbl.Text = dr["EmpAdd"].ToString();
+                EmpPoslbl.Text = dr["EmpPos"].ToString();
+                EmpDOBlbl.Text = dr["EmpDOB"].ToString();
+                EmpPhonelbl.Text = dr["EmpPhone"].ToString();
+                EmpEdulbl.Text = dr["EmpEdu"].ToString();
+                EmpGenlbl.Text = dr["EmpGen"].ToString();
+
+                EmpIdlbl.Visible = true;
+                EmpNamelbl.Visible = true; 
+                EmpAddlbl.Visible = true; 
+                EmpPoslbl.Visible = true;
+                EmpDOBlbl.Visible = true;
+                EmpPhonelbl.Visible = true;
+                EmpEdulbl.Visible = true;
+                EmpGenlbl.Visible = true;
 
             }
             Con.Close();
@@ -38,7 +54,7 @@ namespace EmpoyeeManagementSystem
 
         private void ViewEmployee_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -55,7 +71,15 @@ namespace EmpoyeeManagementSystem
 
         private void bunifuThinButton25_Click(object sender, EventArgs e)
         {
-            FetchEmpData();
+            if (EmpIdTb.Text == "")
+            {
+                MessageBox.Show("Please enter a valid Employee ID!");
+            }
+            else
+            {
+                FetchEmpData();
+            }
+            
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿
-namespace EmpoyeeManagementSystem
+namespace EmployeeManagementSystem
 {
     partial class ViewEmployee
     {
@@ -30,14 +30,25 @@ namespace EmpoyeeManagementSystem
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewEmployee));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.EmpGenlbl = new System.Windows.Forms.Label();
+            this.EmpEdulbl = new System.Windows.Forms.Label();
+            this.EmpDOBlbl = new System.Windows.Forms.Label();
+            this.EmpNamelbl = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.EmpIdTb = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.bunifuThinButton24 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label9 = new System.Windows.Forms.Label();
@@ -48,17 +59,6 @@ namespace EmpoyeeManagementSystem
             this.EmpAddlbl = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.EmpIdlbl = new System.Windows.Forms.Label();
-            this.bunifuThinButton25 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.EmpIdTb = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.EmpGenlbl = new System.Windows.Forms.Label();
-            this.EmpEdulbl = new System.Windows.Forms.Label();
-            this.EmpDOBlbl = new System.Windows.Forms.Label();
-            this.EmpNamelbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -126,6 +126,211 @@ namespace EmpoyeeManagementSystem
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1381, 633);
             this.panel1.TabIndex = 33;
+            // 
+            // EmpGenlbl
+            // 
+            this.EmpGenlbl.AutoSize = true;
+            this.EmpGenlbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpGenlbl.ForeColor = System.Drawing.Color.Navy;
+            this.EmpGenlbl.Location = new System.Drawing.Point(976, 221);
+            this.EmpGenlbl.Name = "EmpGenlbl";
+            this.EmpGenlbl.Size = new System.Drawing.Size(178, 23);
+            this.EmpGenlbl.TabIndex = 36;
+            this.EmpGenlbl.Text = "Employee Gender";
+            this.EmpGenlbl.Visible = false;
+            // 
+            // EmpEdulbl
+            // 
+            this.EmpEdulbl.AutoSize = true;
+            this.EmpEdulbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpEdulbl.ForeColor = System.Drawing.Color.Navy;
+            this.EmpEdulbl.Location = new System.Drawing.Point(976, 406);
+            this.EmpEdulbl.Name = "EmpEdulbl";
+            this.EmpEdulbl.Size = new System.Drawing.Size(203, 23);
+            this.EmpEdulbl.TabIndex = 35;
+            this.EmpEdulbl.Text = "Employee Education";
+            this.EmpEdulbl.Visible = false;
+            // 
+            // EmpDOBlbl
+            // 
+            this.EmpDOBlbl.AutoSize = true;
+            this.EmpDOBlbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpDOBlbl.ForeColor = System.Drawing.Color.Navy;
+            this.EmpDOBlbl.Location = new System.Drawing.Point(976, 312);
+            this.EmpDOBlbl.Name = "EmpDOBlbl";
+            this.EmpDOBlbl.Size = new System.Drawing.Size(164, 23);
+            this.EmpDOBlbl.TabIndex = 34;
+            this.EmpDOBlbl.Text = "Employee D.O.B";
+            this.EmpDOBlbl.Visible = false;
+            // 
+            // EmpNamelbl
+            // 
+            this.EmpNamelbl.AutoSize = true;
+            this.EmpNamelbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpNamelbl.ForeColor = System.Drawing.Color.Navy;
+            this.EmpNamelbl.Location = new System.Drawing.Point(976, 135);
+            this.EmpNamelbl.Name = "EmpNamelbl";
+            this.EmpNamelbl.Size = new System.Drawing.Size(165, 23);
+            this.EmpNamelbl.TabIndex = 33;
+            this.EmpNamelbl.Text = "Employee Name";
+            this.EmpNamelbl.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label12.Location = new System.Drawing.Point(226, 406);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(167, 23);
+            this.label12.TabIndex = 32;
+            this.label12.Text = "Employee Phone";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label13.Location = new System.Drawing.Point(226, 312);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(185, 23);
+            this.label13.TabIndex = 31;
+            this.label13.Text = "Employee Position";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label14.Location = new System.Drawing.Point(226, 221);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(188, 23);
+            this.label14.TabIndex = 30;
+            this.label14.Text = "Employee Address";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label15.Location = new System.Drawing.Point(226, 135);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(130, 23);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "Employee ID";
+            // 
+            // bunifuThinButton25
+            // 
+            this.bunifuThinButton25.ActiveBorderThickness = 1;
+            this.bunifuThinButton25.ActiveCornerRadius = 20;
+            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton25.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
+            this.bunifuThinButton25.ButtonText = "Refresh";
+            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton25.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton25.IdleBorderThickness = 1;
+            this.bunifuThinButton25.IdleCornerRadius = 20;
+            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.OrangeRed;
+            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.OrangeRed;
+            this.bunifuThinButton25.Location = new System.Drawing.Point(787, 20);
+            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
+            this.bunifuThinButton25.Name = "bunifuThinButton25";
+            this.bunifuThinButton25.Size = new System.Drawing.Size(107, 50);
+            this.bunifuThinButton25.TabIndex = 28;
+            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton25.Click += new System.EventHandler(this.bunifuThinButton25_Click);
+            // 
+            // EmpIdTb
+            // 
+            this.EmpIdTb.AcceptsReturn = false;
+            this.EmpIdTb.AcceptsTab = false;
+            this.EmpIdTb.AnimationSpeed = 200;
+            this.EmpIdTb.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.EmpIdTb.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.EmpIdTb.BackColor = System.Drawing.Color.Transparent;
+            this.EmpIdTb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EmpIdTb.BackgroundImage")));
+            this.EmpIdTb.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.EmpIdTb.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.EmpIdTb.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.EmpIdTb.BorderColorIdle = System.Drawing.Color.Silver;
+            this.EmpIdTb.BorderRadius = 1;
+            this.EmpIdTb.BorderThickness = 1;
+            this.EmpIdTb.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.EmpIdTb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmpIdTb.DefaultFont = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmpIdTb.DefaultText = "";
+            this.EmpIdTb.FillColor = System.Drawing.Color.WhiteSmoke;
+            this.EmpIdTb.ForeColor = System.Drawing.Color.OrangeRed;
+            this.EmpIdTb.HideSelection = true;
+            this.EmpIdTb.IconLeft = null;
+            this.EmpIdTb.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmpIdTb.IconPadding = 10;
+            this.EmpIdTb.IconRight = null;
+            this.EmpIdTb.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.EmpIdTb.Lines = new string[0];
+            this.EmpIdTb.Location = new System.Drawing.Point(618, 36);
+            this.EmpIdTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EmpIdTb.MaxLength = 32767;
+            this.EmpIdTb.MinimumSize = new System.Drawing.Size(1, 1);
+            this.EmpIdTb.Modified = false;
+            this.EmpIdTb.Multiline = false;
+            this.EmpIdTb.Name = "EmpIdTb";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmpIdTb.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.EmpIdTb.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmpIdTb.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.WhiteSmoke;
+            stateProperties8.ForeColor = System.Drawing.Color.OrangeRed;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.EmpIdTb.OnIdleState = stateProperties8;
+            this.EmpIdTb.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.EmpIdTb.PasswordChar = '\0';
+            this.EmpIdTb.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.EmpIdTb.PlaceholderText = "";
+            this.EmpIdTb.ReadOnly = false;
+            this.EmpIdTb.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.EmpIdTb.SelectedText = "";
+            this.EmpIdTb.SelectionLength = 0;
+            this.EmpIdTb.SelectionStart = 0;
+            this.EmpIdTb.ShortcutsEnabled = true;
+            this.EmpIdTb.Size = new System.Drawing.Size(139, 34);
+            this.EmpIdTb.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.EmpIdTb.TabIndex = 27;
+            this.EmpIdTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.EmpIdTb.TextMarginBottom = 0;
+            this.EmpIdTb.TextMarginLeft = 3;
+            this.EmpIdTb.TextMarginTop = 0;
+            this.EmpIdTb.TextPlaceholder = "";
+            this.EmpIdTb.UseSystemPasswordChar = false;
+            this.EmpIdTb.WordWrap = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.OrangeRed;
+            this.label10.Location = new System.Drawing.Point(469, 47);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(130, 23);
+            this.label10.TabIndex = 26;
+            this.label10.Text = "Employee ID";
             // 
             // bunifuThinButton24
             // 
@@ -210,6 +415,7 @@ namespace EmpoyeeManagementSystem
             this.EmpPhonelbl.Size = new System.Drawing.Size(167, 23);
             this.EmpPhonelbl.TabIndex = 16;
             this.EmpPhonelbl.Text = "Employee Phone";
+            this.EmpPhonelbl.Visible = false;
             // 
             // label6
             // 
@@ -232,6 +438,7 @@ namespace EmpoyeeManagementSystem
             this.EmpPoslbl.Size = new System.Drawing.Size(185, 23);
             this.EmpPoslbl.TabIndex = 11;
             this.EmpPoslbl.Text = "Employee Position";
+            this.EmpPoslbl.Visible = false;
             // 
             // EmpAddlbl
             // 
@@ -243,6 +450,7 @@ namespace EmpoyeeManagementSystem
             this.EmpAddlbl.Size = new System.Drawing.Size(188, 23);
             this.EmpAddlbl.TabIndex = 9;
             this.EmpAddlbl.Text = "Employee Address";
+            this.EmpAddlbl.Visible = false;
             // 
             // label3
             // 
@@ -265,207 +473,7 @@ namespace EmpoyeeManagementSystem
             this.EmpIdlbl.Size = new System.Drawing.Size(130, 23);
             this.EmpIdlbl.TabIndex = 5;
             this.EmpIdlbl.Text = "Employee ID";
-            // 
-            // bunifuThinButton25
-            // 
-            this.bunifuThinButton25.ActiveBorderThickness = 1;
-            this.bunifuThinButton25.ActiveCornerRadius = 20;
-            this.bunifuThinButton25.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton25.BackgroundImage")));
-            this.bunifuThinButton25.ButtonText = "Refresh";
-            this.bunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton25.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton25.IdleBorderThickness = 1;
-            this.bunifuThinButton25.IdleCornerRadius = 20;
-            this.bunifuThinButton25.IdleFillColor = System.Drawing.Color.OrangeRed;
-            this.bunifuThinButton25.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton25.IdleLineColor = System.Drawing.Color.OrangeRed;
-            this.bunifuThinButton25.Location = new System.Drawing.Point(787, 20);
-            this.bunifuThinButton25.Margin = new System.Windows.Forms.Padding(8, 6, 8, 6);
-            this.bunifuThinButton25.Name = "bunifuThinButton25";
-            this.bunifuThinButton25.Size = new System.Drawing.Size(107, 50);
-            this.bunifuThinButton25.TabIndex = 28;
-            this.bunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton25.Click += new System.EventHandler(this.bunifuThinButton25_Click);
-            // 
-            // EmpIdTb
-            // 
-            this.EmpIdTb.AcceptsReturn = false;
-            this.EmpIdTb.AcceptsTab = false;
-            this.EmpIdTb.AnimationSpeed = 200;
-            this.EmpIdTb.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.EmpIdTb.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.EmpIdTb.BackColor = System.Drawing.Color.Transparent;
-            this.EmpIdTb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EmpIdTb.BackgroundImage")));
-            this.EmpIdTb.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.EmpIdTb.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.EmpIdTb.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.EmpIdTb.BorderColorIdle = System.Drawing.Color.Silver;
-            this.EmpIdTb.BorderRadius = 1;
-            this.EmpIdTb.BorderThickness = 1;
-            this.EmpIdTb.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.EmpIdTb.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.EmpIdTb.DefaultFont = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpIdTb.DefaultText = "";
-            this.EmpIdTb.FillColor = System.Drawing.Color.WhiteSmoke;
-            this.EmpIdTb.ForeColor = System.Drawing.Color.OrangeRed;
-            this.EmpIdTb.HideSelection = true;
-            this.EmpIdTb.IconLeft = null;
-            this.EmpIdTb.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.EmpIdTb.IconPadding = 10;
-            this.EmpIdTb.IconRight = null;
-            this.EmpIdTb.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.EmpIdTb.Lines = new string[0];
-            this.EmpIdTb.Location = new System.Drawing.Point(618, 36);
-            this.EmpIdTb.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.EmpIdTb.MaxLength = 32767;
-            this.EmpIdTb.MinimumSize = new System.Drawing.Size(1, 1);
-            this.EmpIdTb.Modified = false;
-            this.EmpIdTb.Multiline = false;
-            this.EmpIdTb.Name = "EmpIdTb";
-            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.EmpIdTb.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.EmpIdTb.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.EmpIdTb.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.WhiteSmoke;
-            stateProperties16.ForeColor = System.Drawing.Color.OrangeRed;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.EmpIdTb.OnIdleState = stateProperties16;
-            this.EmpIdTb.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.EmpIdTb.PasswordChar = '\0';
-            this.EmpIdTb.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.EmpIdTb.PlaceholderText = "";
-            this.EmpIdTb.ReadOnly = false;
-            this.EmpIdTb.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.EmpIdTb.SelectedText = "";
-            this.EmpIdTb.SelectionLength = 0;
-            this.EmpIdTb.SelectionStart = 0;
-            this.EmpIdTb.ShortcutsEnabled = true;
-            this.EmpIdTb.Size = new System.Drawing.Size(139, 34);
-            this.EmpIdTb.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.EmpIdTb.TabIndex = 27;
-            this.EmpIdTb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.EmpIdTb.TextMarginBottom = 0;
-            this.EmpIdTb.TextMarginLeft = 3;
-            this.EmpIdTb.TextMarginTop = 0;
-            this.EmpIdTb.TextPlaceholder = "";
-            this.EmpIdTb.UseSystemPasswordChar = false;
-            this.EmpIdTb.WordWrap = true;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label10.Location = new System.Drawing.Point(469, 47);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(130, 23);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Employee ID";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label12.Location = new System.Drawing.Point(226, 406);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(167, 23);
-            this.label12.TabIndex = 32;
-            this.label12.Text = "Employee Phone";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label13.Location = new System.Drawing.Point(226, 312);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(185, 23);
-            this.label13.TabIndex = 31;
-            this.label13.Text = "Employee Position";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label14.Location = new System.Drawing.Point(226, 221);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(188, 23);
-            this.label14.TabIndex = 30;
-            this.label14.Text = "Employee Address";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label15.Location = new System.Drawing.Point(226, 135);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(130, 23);
-            this.label15.TabIndex = 29;
-            this.label15.Text = "Employee ID";
-            // 
-            // EmpGenlbl
-            // 
-            this.EmpGenlbl.AutoSize = true;
-            this.EmpGenlbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpGenlbl.ForeColor = System.Drawing.Color.Navy;
-            this.EmpGenlbl.Location = new System.Drawing.Point(976, 221);
-            this.EmpGenlbl.Name = "EmpGenlbl";
-            this.EmpGenlbl.Size = new System.Drawing.Size(178, 23);
-            this.EmpGenlbl.TabIndex = 36;
-            this.EmpGenlbl.Text = "Employee Gender";
-            // 
-            // EmpEdulbl
-            // 
-            this.EmpEdulbl.AutoSize = true;
-            this.EmpEdulbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpEdulbl.ForeColor = System.Drawing.Color.Navy;
-            this.EmpEdulbl.Location = new System.Drawing.Point(976, 406);
-            this.EmpEdulbl.Name = "EmpEdulbl";
-            this.EmpEdulbl.Size = new System.Drawing.Size(203, 23);
-            this.EmpEdulbl.TabIndex = 35;
-            this.EmpEdulbl.Text = "Employee Education";
-            // 
-            // EmpDOBlbl
-            // 
-            this.EmpDOBlbl.AutoSize = true;
-            this.EmpDOBlbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpDOBlbl.ForeColor = System.Drawing.Color.Navy;
-            this.EmpDOBlbl.Location = new System.Drawing.Point(976, 312);
-            this.EmpDOBlbl.Name = "EmpDOBlbl";
-            this.EmpDOBlbl.Size = new System.Drawing.Size(164, 23);
-            this.EmpDOBlbl.TabIndex = 34;
-            this.EmpDOBlbl.Text = "Employee D.O.B";
-            // 
-            // EmpNamelbl
-            // 
-            this.EmpNamelbl.AutoSize = true;
-            this.EmpNamelbl.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpNamelbl.ForeColor = System.Drawing.Color.Navy;
-            this.EmpNamelbl.Location = new System.Drawing.Point(976, 135);
-            this.EmpNamelbl.Name = "EmpNamelbl";
-            this.EmpNamelbl.Size = new System.Drawing.Size(165, 23);
-            this.EmpNamelbl.TabIndex = 33;
-            this.EmpNamelbl.Text = "Employee Name";
+            this.EmpIdlbl.Visible = false;
             // 
             // ViewEmployee
             // 

@@ -150,20 +150,22 @@
         hIE/xxlsN/7aiPyYzq0852azePVpTGMa9wwY+xfDGZqvCnCLRgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="UidTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAH0AAAAcCAYAAABMKLDaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB8SURBVGhD7dGxDcAwDMRA7T+VrDUyRuDagQA1WcHkA2y+
-        vXDQVdWTmcfurp2HPKKPvbddXjsPueiURAcmOjDRgYkOTHRgogMTHZjowEQHJjow0YGJDkx0YKIDEx2Y
-        6MBEByY6MNGBiQ5MdGCiA/uhr7XePuzu2nnIHWsRH/KOmx45W0ucAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAKcAAAAiCAYAAAA6a8mHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACWSURBVHhe7dKxDQMhAARB+q8KaMNlWB+/hUTiDjaYkya5
+        eIdZenvvz5zzhYLT401zjHM8zwMJp8ebpjhpESdZ4iRLnGSJkyxxkiVOssRJljjJEidZ4iRLnGSJkyxx
+        kiVOssRJljjJEidZ4iRLnGSJkyxxkiVOssRJljjJEidZ4iRLnGSJk6y/ONda33NAwenxpmlW3Bg/gULU
+        yyHN42AAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuTextBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="PassTb.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAH0AAAAcCAYAAABMKLDaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB8SURBVGhD7dGxDcAwDMRA7T+VrDUyRuDagQA1WcHkA2y+
-        vXDQVdWTmcfurp2HPKKPvbddXjsPueiURAcmOjDRgYkOTHRgogMTHZjowEQHJjow0YGJDkx0YKIDEx2Y
-        6MBEByY6MNGBiQ5MdGCiA/uhr7XePuzu2nnIHWsRH/KOmx45W0ucAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAKcAAAAiCAYAAAA6a8mHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACWSURBVHhe7dKxDQMhAARB+q8KaMNlWB+/hUTiDjaYkya5
+        eIdZenvvz5zzhYLT401zjHM8zwMJp8ebpjhpESdZ4iRLnGSJkyxxkiVOssRJljjJEidZ4iRLnGSJkyxx
+        kiVOssRJljjJEidZ4iRLnGSJkyxxkiVOssRJljjJEidZ4iRLnGSJk6y/ONda33NAwenxpmlW3Bg/gULU
+        yyHN42AAAAAASUVORK5CYII=
 </value>
   </data>
 </root>
