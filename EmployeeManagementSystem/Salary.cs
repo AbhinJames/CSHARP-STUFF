@@ -71,6 +71,26 @@ namespace EmployeeManagementSystem
             Application.Exit();
         }
 
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("======SALARY SLIP======", new Font("Century Gothic", 25, FontStyle.Bold), Brushes.Red, new Point(Top));
+            e.Graphics.DrawString("Employee ID: " + EmpIdTb.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 100));
+            e.Graphics.DrawString("Employee Name: " + EmpNameTb.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 150));
+            e.Graphics.DrawString("Employee Position: " + EmpPosTb.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 200));
+            e.Graphics.DrawString("Days Worked: " + WorkedTb.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 250));
+            e.Graphics.DrawString("Daily Base Salary: " + Dailybase, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 300));
+            e.Graphics.DrawString("Total Salary: " + total,new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 350));
+            e.Graphics.DrawString("======EmpHub======", new Font("Century Gothic", 25, FontStyle.Bold), Brushes.Red, new Point(190, 400));
+        }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
+
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
             if (EmpPosTb.Text == "")

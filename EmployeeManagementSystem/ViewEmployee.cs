@@ -81,5 +81,28 @@ namespace EmployeeManagementSystem
             }
             
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            if (printPreviewDialog1.ShowDialog() == DialogResult.OK)
+            {
+                printDocument1.Print();
+            }
+        }
+
+        private void printPreviewDialog1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawString("======Employee Summary======", new Font("Century Gothic", 25, FontStyle.Bold), Brushes.Red, new Point(Top));
+            e.Graphics.DrawString("Employee ID: "+EmpIdlbl.Text+"\t Employee Name: "+EmpNamelbl.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20,100));
+            e.Graphics.DrawString("Employee Address: " + EmpAddlbl.Text + "\t Gender: " + EmpGenlbl.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 150));
+            e.Graphics.DrawString("Employee Position: " + EmpPoslbl.Text + "\t Date Of Birth: " + EmpDOBlbl.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 200));
+            e.Graphics.DrawString("Phone: " + EmpPhonelbl.Text + "\t Education: " + EmpEdulbl.Text, new Font("Century Gothic", 15, FontStyle.Bold), Brushes.Navy, new Point(20, 250));
+            e.Graphics.DrawString("======EmpHub======", new Font("Century Gothic", 25, FontStyle.Bold), Brushes.Red, new Point(190,300));
+        }
     }
 }

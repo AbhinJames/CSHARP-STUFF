@@ -60,7 +60,7 @@ namespace EmployeeManagementSystem
             string query = "select * from EmployeeTbl";
             SqlDataAdapter sda = new SqlDataAdapter(query, Con);
             SqlCommandBuilder builder = new SqlCommandBuilder(sda);
-            var ds = new DataSet();
+            DataSet ds = new DataSet();
             sda.Fill(ds);
             EmpDGV.DataSource = ds.Tables[0];
             Con.Close();
